@@ -1,0 +1,123 @@
+:root {
+    --blue: #3A4759;
+    --green:#BDCCC7;
+    --green-dark:#010B0D;
+}
+@font-face {
+    font-family: "moha";
+    font-display: block;
+    src:url(../font/moha.ttf);
+}
+.z-10{
+    z-index: 10!important;
+}
+a:hover{
+    text-decoration: none;
+}
+
+div.dataTables_wrapper div.dataTables_length label {
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+    float: right;
+}
+.custom-select {
+    background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat left 0.75rem center/8px 10px !important;
+}
+
+.dataTables_filter{
+    padding: 0;
+    float:left!important;
+}
+div.dataTables_wrapper div.dataTables_length select {
+width:60px; 
+margin-right: 0.5em;
+margin-left: 0.5em;
+
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-right: 0.5em;
+    margin-left: 0!important;
+    display: inline-block;
+    width: auto;
+}
+
+.page-item.active .page-link {
+    background-color: #23272B !important;
+    border-color: #23272B !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: white !important;
+    border: none!important;
+    background: transparent!important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding:0!important;
+}
+.page-item.disabled .page-link {
+    border-radius: 0!important;
+}
+.ltr{
+    direction: ltr!important;
+}
+.dropdown-menu {
+    border-radius: 0 !important;
+}
+
+input[type=text],
+input[type=number],
+input[type=password],
+input[type=search],
+select,
+textarea {
+    border-radius: 0 !important;
+}
+*
+{font-family: moha;}
+.text-blue {
+    color: var(--blue)!important;
+}
+.text-green-dark {
+    color: var(--green-dark)!important;
+}
+.bg-blue{
+    background-color: var(--blue)!important;
+}
+.bg-green{
+    background-color: var(--green)!important;
+}
+#hero{
+    height: calc(50vh + 40px);
+}
+#hero .title{
+    white-space: pre;
+}
+#icons{
+    height: calc(50vh);
+}
+
+#logo{
+    width: 32vh;
+    padding-top:calc(10vh + 10px);
+    display: block;
+    margin: auto;
+    padding-bottom: 2vh;
+}
+
+.member .content .title{
+    font-size: 5vw;
+}
+
+main{
+    position: absolute;
+    width: 100%;
+}
+
+.js-btn-upload-gallery{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top:0;
+}
