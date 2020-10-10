@@ -9,9 +9,9 @@ html{
 body{
     min-height: 110vh;
 }
-img{
+/* img{
     width:100%;
-}
+} */
 .w-auto{
     width:auto!important;
 }
