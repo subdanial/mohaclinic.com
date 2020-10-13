@@ -72,7 +72,7 @@
             </div>
             <div class="col-8">
                 <label class="pb-2">محتوای پست</label>
-              <textarea id="tiny" required name="content" class="mt-1 w-100"></textarea>
+              <textarea id="tiny"  name="content" class="mt-1 w-100"></textarea>
             </div>
         </div>
     </form>
