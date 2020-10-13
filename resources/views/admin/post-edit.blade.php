@@ -9,7 +9,7 @@
     </div>
     @endif
     <div class="card card-body">
-    <form action="{{route('admin.post.update',$post->id)}}">
+    <form action="{{route('admin.post.update',$post->id)}}" method="POST">
         <strong class="h3 mb-2 mr-2">افزدون پست</strong>
         <div class="row">
             <div class="col-4">

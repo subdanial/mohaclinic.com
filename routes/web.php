@@ -78,9 +78,9 @@ Route::group(['prefix' => 'admin/post'], function () {
     Route::get('/', 'PostController@index')->name('admin.post.index');
     Route::get('/table', 'PostController@table')->name('admin.post.table');
     Route::get('/create', 'PostController@create')->name('admin.post.create');
-    Route::get('/store', 'PostController@store')->name('admin.post.store');
+    Route::post('/store', 'PostController@store')->name('admin.post.store');
     Route::get('/edit/{post}', 'PostController@edit')->name('admin.post.edit');
-    Route::get('/update/{post}', 'PostController@update')->name('admin.post.update');
+    Route::post('/update/{post}', 'PostController@update')->name('admin.post.update');
    
     Route::get('/destroy{post}', 'PostController@destroy')->name('admin.post.destroy');
 });
