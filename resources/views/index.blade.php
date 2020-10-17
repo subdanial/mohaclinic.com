@@ -37,10 +37,7 @@
               <img src="svg/call.svg" class="d-block mx-auto w-auto  ">
               <span class="text-blue text-center mx-auto d-block">تماس</span></a>
           </div>
-          <div class="col-4 p-0 mb-3"><a href="http://brandent.ir/shop">
-              <img src="svg/call.svg" class="d-block mx-auto w-auto  ">
-              <span class="text-blue text-center mx-auto d-block">فروشگاه</span></a>
-          </div>
+      
         </div>
       </div>
     </div>
